@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>MyUpj2</title>
+</head>
+<body>
+<div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <div class="mx-auto max-w-2xl text-center">
+        <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">My UPJ 2</h2>
+        <p class="mt-2 text-lg/8 text-gray-600">masuk untuk kelola sistem.</p>
+    </div>
+    <form action="/login" method="POST" class="mx-auto mt-14 max-w-xl sm:mt-16">
+        <div class="grid grid-cols-1 gap-x-8 gap-y-6">
+            <div>
+                <label for="username" class="block text-sm/6 font-semibold text-gray-900">Username</label>
+                <div class="mt-2.5">
+                    <input type="text" name="username" id="username"
+                           class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm/6">
+                </div>
+            </div>
+            <div>
+                <label for="password" class="block text-sm/6 font-semibold text-gray-900">Password</label>
+                <div class="mt-2.5">
+                    <input type="password" name="password" id="password"
+                           class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm/6">
+                </div>
+            </div>
+            <div class="mt-10">
+                <button type="submit" class="block w-full rounded-md bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Masuk</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -6,7 +6,11 @@
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "uts",
+    "crud",
+    "mahasiswa"
+  ],
   "author": "Theofilus Christian Kuntolukito",
   "license": "ISC",
   "description": "uts crud node js data mahasiswa",

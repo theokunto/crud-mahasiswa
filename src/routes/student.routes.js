@@ -2,6 +2,6 @@ const express = require("express");
 const router = express.Router();
 router.get('/',)
 router.post('/',)
-router.delete('/:nim',)
-router.patch('/:nim',)
+router.delete('/:id',)
+router.patch('/:id',)
 module.exports=router

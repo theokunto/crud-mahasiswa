@@ -7,7 +7,7 @@ router.get('/',function (req, res) {
 router.get('/dashboard',function (req, res) {
     res.sendFile(path.join(__dirname,'../view/dashboard.html' ))
 })
-router.get('/mahasiswa',function (req, res) {
-    res.sendFile(path.join(__dirname,'../view/mahasiswa.html' ))
+router.get('/student',function (req, res) {
+    res.sendFile(path.join(__dirname,'../view/student.html' ))
 })
 module.exports=router

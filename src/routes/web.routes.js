@@ -5,9 +5,6 @@ const router = express.Router();
 router.get('/',function (req, res) {
     res.sendFile(path.join(__dirname,'../../public/login.html' ))
 })
-router.get('/dashboard',function (req, res) {
-    res.sendFile(path.join(__dirname,'../../public/dashboard.html' ))
-})
 router.get('/student',function (req, res) {
     res.sendFile(path.join(__dirname,'../../public/student.html' ))
 })

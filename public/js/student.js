@@ -93,7 +93,7 @@ function injectModal(button) {
         sex: button.getAttribute('data-sex'),
         address: button.getAttribute('data-address')
     };
-    document.getElementById('student-modal-title').innerText = 'Rubah Data Mahasiswa';
+    document.getElementById('student-modal-title').innerText = 'Ubah Data Mahasiswa';
     document.getElementById('nim').value = data.nim;
     document.getElementById('name').value = data.name;
     document.getElementById('departement').value = data.departement;

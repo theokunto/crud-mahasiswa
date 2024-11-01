@@ -7,7 +7,7 @@ const conn = mysql.createConnection({
     database: process.env.DB_NAME
 })
 conn.connect((err) => {
-    if(err) throw err
-    console.log('DB ERROR -> ', err)
+    if(err) console.log('DB ERROR -> ', err)
 })
-export default conn
+
+module.exports = conn
